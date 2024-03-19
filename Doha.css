@@ -1,0 +1,224 @@
+/* Ajoutez votre CSS personnalisé ici */
+/* Assurez-vous de conserver les classes et les sélecteurs utilisés dans le HTML pour le bon fonctionnement */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d2b8b8;
+    background-color: rgb(88, 88, 84);
+    background-image: url(https://img.freepik.com/premium-photo/abstract-background-with-black-white-spheres-3d-render-illustration-generative-ai_627050-828.jpg?w=740);
+    
+}
+
+.image-slider-container {
+    display: flex;
+    justify-content: space-between;
+}
+.image-slider-container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header {
+    background-color: #333;
+    color: #ede5ec;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 0;
+    
+}
+
+.logo h1 {
+    font-size: 1rem;
+}
+#ac{
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1,5rem;
+}
+
+.destination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.destination .image-text {
+    width: 45%;
+}
+
+.destination .image-text img {
+    width: 100%;
+    height: auto;
+}
+
+.destination .image-text.right {
+    order: 1;
+}
+
+.cuisine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(25%-20px);
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    
+}
+.cuisine img{
+    max-width: 100%;
+    
+}
+.cuisine:last-child{
+    margin-right: 0;
+}
+.cuisine-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    overflow-x: auto; 
+    width: 100%;
+}
+
+.cuisine .cuisine-image {
+    width: 30%;
+    text-align: center;
+}
+
+.cuisine .cuisine-image img {
+    width: 100%;
+    height: auto;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgb(46, 2, 44);
+}
+
+.tours{
+    text-align: center;
+    padding: 20px;
+    
+}
+.met1 {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(17, 7, 7, 0.5);
+    max-height: 400px;
+
+}
+.plat1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-overlay h2, .text-overlay p {
+    margin: 20;
+}
+
+.spacer {
+    width: 5%; /* Espacement entre les deux images */
+
+}
+
+.text-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(143, 125, 125, 0.5);
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%; 
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+
+}
+#welcom-text{
+    
+    background-color: rgba(143, 125, 125, 0.5);
+    color: rgb(46, 2, 44);
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+#foot{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-slider {
+    position: relative;
+    width: 45%; /* Largeur du slider */
+    height: 400px; /* Hauteur du slider */
+    overflow: hidden;
+    border-radius: 15px;
+    float: left; /* Pour aligner les éléments côte à côte */
+    /* Ajouter un espace entre les éléments */
+   margin: auto;
+ 
+}
+
+.image-slider img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.text-overlay h2, .text-overlay p {
+    margin: 0;
+}
+
+.spacer {
+    width: 25%; /* Espacement entre les deux images */
+}
+.video-container video{
+    width: auto;
+    height: 100%;
+    display: block;
+    dmax-width: hidden;
+
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 700px;
+    overflow: hidden;
+}
+#clc{
+    float: left;
+    color: white;
+}

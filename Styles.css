@@ -1,0 +1,140 @@
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#intro h2::after {
+    content: '';
+    display: inline-block;
+    vertical-align: bottom;
+    width: 0;
+    height: 2px;
+    background-color: #49320be1;
+    animation: typing 6s steps(40) infinite;
+    
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://i.pinimg.com/564x/09/75/7a/09757a2a1ad3dc5e74cd8c2b5d0652d9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #ede5ec;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1rem;
+}
+#ac{
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#intro {
+    text-align: center;
+}
+
+#destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /*fhtjtjjtjtjtj */
+    text-align: center;
+}
+
+
+.destination {
+    margin: 10px;
+}
+
+.destination img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.destination h4 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#subscribe {
+    text-align: center;
+}
+
+#subscribe input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#subscribe button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#subscribe button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
